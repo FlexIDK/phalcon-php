@@ -43,17 +43,11 @@ class Security extends AbstractInjectionAware
 
     protected int $workFactor = 10;
 
-    private ?SessionInterface $localSession = null;
-
-    private ?RequestInterface $localRequest = null;
-
     public function __construct(
-        SessionInterface $session = null,
-        RequestInterface $request = null
+        private ?SessionInterface $localSession = null,
+        private ?RequestInterface $localRequest = null
     ) {
         $this->random       = new Random();
-        $this->localRequest = $request;
-        $this->localSession = $session;
     }
 
     /**

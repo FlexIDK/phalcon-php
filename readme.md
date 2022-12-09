@@ -11,6 +11,10 @@ Based on cphalcon 5.x version
 | \Phalcon\Encryption\Security  | \One23\PhalconPhp\Encryption\Security  |
 | \Phalcon\Encryption\Security\Random | \One23\PhalconPhp\Encryption\Security\Random |
 
+## Draft
+
+- \One23\PhalconPhp\Annotations
+
 ## Todo
 
 ...
@@ -25,4 +29,4 @@ If you discover any security related issues, please email eugene@krivoruchko.inf
 
 ## License
 
-[MIT](https://github.com/FlexIDK/language-detection/LICENSE)
+[MIT](https://github.com/FlexIDK/phalcon-php/blob/master/LICENSE)

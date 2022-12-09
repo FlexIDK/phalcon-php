@@ -4,7 +4,7 @@
   "homepage": "https://github.com/FlexIDK/phalcon-php",
   "description": "Partial Phalcon class rewrite from Zephir lang to PHP",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "phalcon",
     "phalcon 5",
@@ -16,7 +16,8 @@
     "php" : "~8.1",
     "ext-openssl": "*",
     "ext-mbstring": "*",
-    "ext-hash": "*"
+    "ext-hash": "*",
+    "ext-apcu": "*"
   },
   "autoload": {
     "files": [
