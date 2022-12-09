@@ -1,0 +1,31 @@
+{
+  "name": "one23/phalcon-php",
+  "type": "library",
+  "homepage": "https://github.com/FlexIDK/phalcon-php",
+  "description": "Partial Phalcon class rewrite from Zephir lang to PHP",
+  "license": "MIT",
+  "version": "1.0.0",
+  "keywords": [
+    "phalcon",
+    "phalcon 5",
+    "php"
+  ],
+  "authors": [
+  ],
+  "require": {
+    "php" : "~8.1",
+    "ext-openssl": "*",
+    "ext-mbstring": "*",
+    "ext-hash": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/zephir.php"
+    ],
+    "psr-4": {
+      "One23\\PhalconPhp\\": "src"
+    }
+  },
+  "extra": {
+  }
+}
